@@ -1,10 +1,4 @@
 import React from "react";
-import HTML from "../assets/html.png";
-import JavaScript from "../assets/javascript.png";
-import ReactImg from "../assets/react.png";
-import TailWind from "../assets/tailwind.png";
-import python from "../assets/python.png"
-import type from "../assets/type.png"
 import Image from "next/image";
 
 const Skills = () => {
@@ -22,18 +16,18 @@ const Skills = () => {
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-6 text-center py-8">
           <div className="shadow-md shadow-orange-500 hover:scale-110 duration-500 ">
-            <Image className="w-20 mx-auto mt-3" src={HTML} alt="HTML Icon" />
+            <Image unoptimized className="w-20 mx-auto mt-3" src="/html.png" width={20} height={20} alt="HTML Icon" />
             <p className="my-4"> HTML</p>
           </div>
           <div className="shadow-md shadow-[#07b6d5] hover:scale-110 duration-500 ">
-            <Image className="w-20 mx-auto mt-3" src={TailWind} alt="HTML Icon" />
+            <Image className="w-20 mx-auto mt-3" src="/tailwind.png" width={20} height={20} unoptimized alt="HTML Icon" />
             <p className="my-4"> TailWind CSS</p>
           </div>
 
           <div className="shadow-md shadow-yellow-500 hover:scale-110 duration-500">
             <Image
               className="w-20 mx-auto mt-3"
-              src={ReactImg}
+              src="/react.png" width={20} height={20} unoptimized
               alt="HTML Icon"
             />
             <p className="my-4"> React-Native</p>
@@ -41,7 +35,7 @@ const Skills = () => {
           <div className="shadow-md shadow-yellow-500 hover:scale-110 duration-500">
             <Image
               className="w-20 mx-auto mt-3"
-              src={JavaScript}
+              src="javascript.png" width={20} height={20} unoptimized
               alt="HTML Icon"
             />
             <p className="my-4"> JavaScript</p>
@@ -50,7 +44,7 @@ const Skills = () => {
           <div className="shadow-md shadow-yellow-500 hover:scale-110 duration-500">
             <Image
               className="w-20 mx-auto mt-3"
-              src={python}
+              src="python.png" width={20} height={20} unoptimized
               alt="HTML Icon"
             />
             <p className="my-4"> Python</p>
@@ -59,7 +53,7 @@ const Skills = () => {
           <div className="shadow-md shadow-yellow-500 hover:scale-110 duration-500">
             <Image
               className="w-20 mx-auto mt-3"
-              src={type}
+              src="type.png" width={20} height={20} unoptimized
               alt="HTML Icon"
             />
             <p className="my-4"> TypeScript</p>
