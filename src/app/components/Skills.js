@@ -3,7 +3,7 @@ import HTML from "../assets/html.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import TailWind from "../assets/tailwind.png";
-import python from "../assets/python.png"
+// import python from "../assets/python.png"
 import type from "../assets/type.png"
 import Image from "next/image";
 
@@ -47,14 +47,14 @@ const Skills = () => {
             <p className="my-4"> JavaScript</p>
           </div>
          
-          <div className="shadow-md shadow-yellow-500 hover:scale-110 duration-500">
+          {/* <div className="shadow-md shadow-yellow-500 hover:scale-110 duration-500">
             <Image
               className="w-20 mx-auto mt-3"
               src={python}
               alt="HTML Icon"
             />
             <p className="my-4"> Python</p>
-          </div>
+          </div> */}
 
           <div className="shadow-md shadow-yellow-500 hover:scale-110 duration-500">
             <Image
