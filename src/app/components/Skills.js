@@ -3,7 +3,7 @@ import HTML from "../assets/html.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import TailWind from "../assets/tailwind.png";
-// import python from "../assets/python.png"
+import python from "../assets/python.png"
 import type from "../assets/type.png"
 import Image from "next/image";
 
@@ -18,7 +18,7 @@ const Skills = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Skills
           </p>
-          <p className="py-4">//These are the technologies i've worked with</p>
+          <p className="py-4">These are the technologies i work with <span className="text-pink-600 italic ">Open to learning more </span></p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-6 text-center py-8">
           <div className="shadow-md shadow-orange-500 hover:scale-110 duration-500 ">
@@ -47,14 +47,14 @@ const Skills = () => {
             <p className="my-4"> JavaScript</p>
           </div>
          
-          {/* <div className="shadow-md shadow-yellow-500 hover:scale-110 duration-500">
+          <div className="shadow-md shadow-yellow-500 hover:scale-110 duration-500">
             <Image
               className="w-20 mx-auto mt-3"
               src={python}
               alt="HTML Icon"
             />
             <p className="my-4"> Python</p>
-          </div> */}
+          </div>
 
           <div className="shadow-md shadow-yellow-500 hover:scale-110 duration-500">
             <Image

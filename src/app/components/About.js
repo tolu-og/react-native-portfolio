@@ -14,13 +14,13 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full sm:grid grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold ">
-            <p>Hi. I'm Tolu, nice to meet you. Please take a look around</p>
+            <p>Hi. I am Tolu, nice to meet you. Please take a look around</p>
           </div>
           <div>
             <p>
-              I'm deeply passionate about crafting exceptional software
+              I am deeply passionate about crafting exceptional software
               solutions using React Native, aimed at enhancing user experiences
-              and making a tangible difference in people's lives. Specializing
+              and making a tangible difference in peoples lives. Specializing
               in developing mobile applications, I channel my creativity and
               expertise to deliver intuitive and impactful solutions across
               various platforms.
